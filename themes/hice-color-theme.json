@@ -41,7 +41,8 @@
 		"editorSuggestWidget.focusHighlightForeground": "#ffae00",
 		"editorSuggestWidget.highlightForeground": "#b79855",
 		"editorSuggestWidget.selectedForeground": "#a4f7e9",
-		"editorGroupHeader.tabsBackground": "#1d475d"
+		"editorGroupHeader.tabsBackground": "#1d475d",
+		"list.inactiveSelectionBackground": "#285060"
 	},
 	"tokenColors": [
 		{
