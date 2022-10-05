@@ -12,14 +12,15 @@
 		"sideBar.background": "#1d4255",
 		"sideBar.foreground": "#a5b1aa",
 		"sideBarSectionHeader.background": "#185474",
-		"statusBar.background": "#1c7558",
+		"statusBar.background": "#314d6b",
 		"statusBar.foreground": "#e9f3f6",
-		"statusBar.debuggingBackground": "#ba9114",
+		"statusBar.debuggingBackground": "#49a89e",
+		"statusBar.noFolderBackground": "#1c7558",
 		"titleBar.activeBackground": "#1c4d67",
 		"titleBar.activeForeground": "#e9f9fd",
 		"titleBar.inactiveBackground": "#1d475d",
 		"tab.activeBackground": "#153c4f",
-		"tab.inactiveBackground": "#0e2c3a",
+		"tab.inactiveBackground": "#1d475d",
 		"tab.hoverBackground": "#1a495f",
 		"editorInfo.foreground": "#13dcea",
 		"editorWarning.foreground": "#ffe600",
@@ -41,7 +42,12 @@
 		"editorSuggestWidget.focusHighlightForeground": "#ffae00",
 		"editorSuggestWidget.highlightForeground": "#b79855",
 		"editorSuggestWidget.selectedForeground": "#a4f7e9",
-		"editorGroupHeader.tabsBackground": "#1d475d"
+		"editorSuggestWidget.selectedBackground": "#368385",
+		"editorGroupHeader.tabsBackground": "#1d475d",
+		"debugToolBar.background": "#0f2b39",
+		"list.inactiveSelectionBackground": "#1c627c",
+		"panelTitle.activeBorder": "#3b91b0",
+		"quickInput.background": "#124f56",
 	},
 	"tokenColors": [
 		{
@@ -113,10 +119,19 @@
 			}
 		},
 		{
+			"name": "Meta",
+			"scope":[
+
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#714a98"
+			}
+		},
+		{
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -220,8 +235,8 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#c6c371",
-				"fontStyle": "italic underline"
+				"foreground": "#4cb974",
+				"fontStyle": "italic"
 			}
 		},
 		{

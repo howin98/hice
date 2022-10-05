@@ -2,10 +2,15 @@
   "name": "hice",
   "displayName": "hice",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.71.0"
   },
+  "publisher": "howin",
+  "extensionKind": [
+    "ui"
+  ],
+  "icon": "img/log.png",
   "repository": {
     "url": "https://github.com/howin98/hice"
   },
@@ -20,5 +25,11 @@
         "path": "./themes/hice-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package -o hice.vsix",
+    "install": "code --install-extension hice.vsix",
+    "apply": "npm run package && npm run install",
+    "push": "git add . && git commit -m fix && git push"
   }
 }
