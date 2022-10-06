@@ -31,7 +31,7 @@
 		"list.hoverBackground": "#226164",
 		"editor.lineHighlightBackground": "#225067",
 		"editorLineNumber.foreground": "#5f9e9c",
-		"editorHoverWidget.background": "#3d7075",
+		"editorHoverWidget.background": "#22494d",
 		"editorHoverWidget.foreground": "#e8e8e8",
 		"editorHoverWidget.border": "#19393b",
 		"editorHoverWidget.statusBarBackground": "#3d5d60",
@@ -48,6 +48,12 @@
 		"list.inactiveSelectionBackground": "#1c627c",
 		"panelTitle.activeBorder": "#3b91b0",
 		"quickInput.background": "#124f56",
+		"editor.foldBackground": "#0b2b3b",
+		"editorGutter.background": "#153545",
+		"editorWidget.background": "#02293b",
+		"editorIndentGuide.background": "#369879",
+		"editorInlayHint.background": "#053248",
+		"editorInlayHint.foreground": "#949494"
 	},
 	"tokenColors": [
 		{
@@ -58,7 +64,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#c4d3dc"
+				"foreground": "#c2c2c2"
 			}
 		},
 		{
@@ -68,7 +74,8 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#37e7e7",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -106,7 +113,7 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#e74e12"
+				"foreground": "#c75325"
 			}
 		},
 		{
@@ -115,7 +122,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#da8d7c"
+				"foreground": "#8eb52a",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -252,7 +260,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#e885c2",
+				"foreground": "#d870d8",
 			}
 		},
 		{
