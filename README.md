@@ -1,4 +1,5 @@
 # hice, a bells and whistles theme for vscode
-> 一款花里胡哨的vscode主题
+
+have effort on highlighting the dense information entropy and contextualizing the unimportant token.
 
 ![show](img/show.png)
