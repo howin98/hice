@@ -9,7 +9,7 @@
 		"activityBarBadge.foreground": "#cdf48d",
 		"button.background": "#46986f",
 		"panel.background": "#113344",
-		"sideBar.background": "#1d4255",
+		"sideBar.background": "#0d3448",
 		"sideBar.foreground": "#a5b1aa",
 		"sideBarSectionHeader.background": "#185474",
 		"statusBar.background": "#314d6b",
@@ -24,7 +24,7 @@
 		"tab.hoverBackground": "#1a495f",
 		"editorInfo.foreground": "#13dcea",
 		"editorWarning.foreground": "#ffe600",
-		"editorError.foreground": "#dd554c",
+		"editorError.foreground": "#de2413",
 		"menu.background": "#315472",
 		"input.background": "#33566c",
 		"dropdown.background": "#27697b",
@@ -49,11 +49,14 @@
 		"panelTitle.activeBorder": "#3b91b0",
 		"quickInput.background": "#124f56",
 		"editor.foldBackground": "#0b2b3b",
-		"editorGutter.background": "#153545",
+		"editorGutter.background": "#0f384d",
 		"editorWidget.background": "#02293b",
 		"editorIndentGuide.background": "#369879",
 		"editorInlayHint.background": "#053248",
-		"editorInlayHint.foreground": "#949494"
+		"editorInlayHint.foreground": "#949494",
+		"statusBarItem.errorBackground": "#520c1d",
+		"editor.selectionHighlightBackground": "#006e8d",
+		"editorStickyScrollHover.background": "#05274a"
 	},
 	"tokenColors": [
 		{
@@ -113,7 +116,7 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#c75325"
+				"foreground": "#b8ce2a"
 			}
 		},
 		{
@@ -128,12 +131,11 @@
 		},
 		{
 			"name": "Meta",
-			"scope":[
-
+			"scope": [
 				"meta.tag",
 			],
 			"settings": {
-				"foreground": "#714a98"
+				"foreground": "#d859ff"
 			}
 		},
 		{
@@ -243,7 +245,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#4cb974",
+				"foreground": "#4dd37e",
 				"fontStyle": "italic"
 			}
 		},
